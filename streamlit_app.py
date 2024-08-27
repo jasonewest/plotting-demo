@@ -1,6 +1,6 @@
 import streamlit as st
 
-import time as t
+import time
 
 import numpy as np
 
@@ -24,7 +24,7 @@ for i in range(1, 101):
 
     last_rows = new_rows
 
-    t.sleep(0.05)
+    time.sleep(0.05)
 
 progress_bar.empty()
 
